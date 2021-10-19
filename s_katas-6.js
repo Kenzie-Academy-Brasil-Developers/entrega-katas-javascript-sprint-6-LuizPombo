@@ -10,7 +10,7 @@ const add = (x, y) => {
  *    Convert this to an arrow function that takes advantage of that.
  */
 const increment = number => {
-    return number ++
+    return number + 1
 }
 
 /* 
@@ -18,7 +18,7 @@ const increment = number => {
  *    braces and the return statement. Update this arrow function to be a one
  *    liner which doesn't include "return".
  */
-const decrement = number => number--;
+const decrement = number => number - 1;
 
 module.exports = {
     add,
